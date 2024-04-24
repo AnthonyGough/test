@@ -17,6 +17,10 @@ public class HelloController {
     @FXML
     private Button nextButton;
     @FXML
+
+    /**
+     * Initialises the text box on the initial GUI with Terms and Conditions
+     */
     public void initialize() {
         termsAndConditions.setText("""
 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
